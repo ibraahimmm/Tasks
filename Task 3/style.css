@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+@media (min-width: 621px) {
+  .container .circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+img {
+  display: block;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #84c4ea;
+  align-items: center;
+  
+}
+
+
+
+:nth-child(1 of .footer) {
+  background-color: #e9f3f5;
+  height: 50px;
+}
+
+:nth-child(2 of .footer) {
+  background-color: #81c4ec;
+  height: 50px;
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2edef;
+  padding: 10px 0;
+}
+
+:nth-child(1 of .lines) {
+  background-color: #4e8aaf;
+  height: 40px;
+}
+
+:nth-child(1 of .lines:hover) 
+
+{
+  background-color: #444444;
+}
+
+:nth-child(1 of .circle) {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #4c88ae;
+  align-self: center;
+
+}
+
+:nth-child(1 of .circle:hover) {
+  background-color: #3f3f3f;
+}
+
+:nth-child(2 of .lines) {
+  background-color: #3d6088;
+  height: 40px;
+}
+
+:nth-child(2 of .lines:hover) {
+  background-color: #3d3d3d;
+}
+
+:nth-child(2 of .circle) {
+  width: 80px;
+  height: 80px;
+  background-color: #406289;
+  align-self: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+:nth-child(2 of .circle:hover) {
+  background-color: #3f3f3f;
+}
+
+:nth-child(3 of .lines) {
+  background-color: #eb615f;
+  height: 40px;
+}
+
+:nth-child(3 of .lines:hover) {
+  background-color: #434343;
+}
+
+:nth-child(3 of .circle) {
+  width: 90px;
+  height: 90px;
+  background-color: #f06562;
+  align-self: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+:nth-child(3 of .circle:hover) {
+  background-color: #3e3e3e;
+}
+
+:nth-child(4 of .lines) {
+  background-color: #fb9e6c;
+  height: 40px;
+}
+
+:nth-child(4 of .lines:hover) {
+  background-color: #424141;
+}
+
+:nth-child(4 of .circle) {
+  width: 100px;
+  height: 100px;
+  background-color: #f9a070;
+  align-self: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+:nth-child(4 of .circle:hover) {
+  background-color: #424242;
+}
+
+/*# sourceMappingURL=style.css.map */
