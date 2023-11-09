@@ -1,0 +1,81 @@
+*{
+  margin: 0px; /* Resets defaul margin for all elements */
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+
+#logo{
+  padding:10px;
+  width: 5%; /*padding is added on top of the set viewport size so it does not have an unneccesary size changes */  
+}
+
+img{
+  display:block; 
+}
+
+p{
+  padding: 20px;
+  clear:both; 
+}
+
+.container{
+  background-color: white; /* Overwrite the body's bg color. Applies only to this element and its children*/
+
+}
+
+.footer{
+  background-color: black;
+
+  color: white;
+  text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:480px){
+
+  .cover{
+      width: 100%; /* We use percentages because viewport units ignore the existence of scrollbars because the space scrollbars take is part of the viewport, but we want our elements to respect its space, so we set to %  */
+    }
+
+  #logo{
+    width:15%;
+  }
+}
+
+@media (min-width:481px) and (max-width:800px){
+
+  .cover{
+      width: 50%;
+      float:left;
+  }
+}
+
+@media (min-width:801px) and (max-width:1024px){
+
+  .cover{
+    float:left;
+    width:33.333%; 
+  }
+}
+
+@media (min-width:1025px){
+
+.cover{
+float:left;
+width:33.333%;
+}
+
+body{
+  display:flex;
+  align-items:center;
+  background-color: rgb(246, 246, 247);
+}
+
+.container{
+margin: 0 10%; 
+
+}
+}
